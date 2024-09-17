@@ -3,6 +3,19 @@
 	background-color:rgb(135, 206, 235);
 }
 
+p:first-child{
+	color:white;
+	background-color:black;
+}
+
+p:nth-child(2){
+	color:black;
+}
+
+p:last-child{
+	color:red;
+}
+
 li{
 	background-color:gray;
 	width:50%;
@@ -16,3 +29,5 @@ li:nth-of-type(odd){
 li:nth-child(3){
 		background-color:pink;
 }
+
+
